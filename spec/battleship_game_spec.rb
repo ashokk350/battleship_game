@@ -54,7 +54,7 @@ RSpec.describe BattleshipGame do
   end
 
   describe '#output' do
-    let(:output_file) { 'spec/fixtures/output.txt' }
+    let(:output_file) { 'spec/fixtures/sample_output.txt' }
 
     it 'writes correct output to file' do
       game.initialize_game(file_path)
